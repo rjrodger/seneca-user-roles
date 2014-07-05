@@ -1,0 +1,35 @@
+{
+  "name": "seneca-user-roles",
+  "version": "0.1.0",
+  "description": "Seneca plugin providing user role business logic.",
+  "main": "user-roles.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rjrodger/seneca-user-roles.git"
+  },
+  "keywords": [
+    "seneca",
+    "wizard",
+    "plugin"
+  ],
+  "author": "Richard Rodger (http://richardrodger.com)",
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "~1.6.0"
+  },
+  "peerDependencies": {
+    "seneca": "*"
+  },
+  "devDependencies": {
+    "seneca": "*",
+    "mocha": "~1.13.0"
+  },
+  "files": [
+    "README.md",
+    "LICENSE.txt",
+    "user-roles.js"
+  ]
+}
